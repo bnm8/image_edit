@@ -1,10 +1,11 @@
-{% extends 'base.html.twig' %}
+{% extends '@App/layout.html.twig' %}
 
 {% block body %}
     <div id="wrapper">
         <div id="container">
             <div id="welcome">
                 <h1><span>Welcome to</span> Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</h1>
+                <h2>In layout moved!</h2>
             </div>
 
             <div id="status">

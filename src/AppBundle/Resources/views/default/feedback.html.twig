@@ -1,0 +1,15 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block title %}Feedback{% endblock %}
+
+{% block body %}
+<h1>Feedback page in layout moved</h1>
+    <h2>{{ asd }}</h2>
+    <p>
+        {% for key, el in myarr %}
+            {{ key }} => {{ el }} <br>
+        {% endfor %}
+    </p>
+    <p>The current version is {{ constant('Twig_Environment::VERSION') }}</p>
+
+{% endblock %}
